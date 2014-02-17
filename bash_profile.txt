@@ -1,0 +1,10 @@
+export PATH=$PATH:/usr/local/mysql/bin/:usr/local/share/npm/bin
+# replacement netstat cmd to find ports used by apps on OS X
+alias netstat_osx="sudo lsof -i -P"
+GOSSIP_PATH=/Users/jimmers/Sites/IntentMedia/gossip
+export GOSSIP_PATH
+GOSSIP3_PATH=/Users/jimmers/Sites/IntentMedia/gossip3
+export GOSSIP3_PATH
+case $- in
+   *i*) source ~/.bashrc
+esac
